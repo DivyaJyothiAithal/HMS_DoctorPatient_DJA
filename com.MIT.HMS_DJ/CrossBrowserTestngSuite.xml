@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="ListenerUtility.ListenerImplementation_HMS"></listener>
+</listeners>
+
+<test thread-count="2" parallel="tests" name="Test1">
+    <parameter name="Browser" value="edge"></parameter>
+    <classes>
+     <class name="com.MIT.HMS_DJ.TC_03_ManagePatientsReportAppointment_SystemTest"/>     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" parallel="tests" name="Test2">
+    <parameter name="Browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.MIT.HMS_DJ.TC_02_ContactUs_SystemTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
