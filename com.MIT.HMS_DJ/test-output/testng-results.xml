@@ -2,51 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-18T08:03:06 IST" name="Suite" finished-at="2025-03-18T08:03:39 IST" duration-ms="33716">
+  <suite started-at="2025-03-18T10:23:22 IST" name="Suite" finished-at="2025-03-18T10:23:52 IST" duration-ms="29223">
     <groups>
       <group name="SmokeTest">
         <method signature="TC_06_ManagePatients_SmokeTest.managePatientsSmoke()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" name="managePatientsSmoke" class="com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest"/>
         <method signature="TC_07_AppointmentHistory_SmokeTest.AppointmentHistoryTest()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" name="AppointmentHistoryTest" class="com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest"/>
       </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2025-03-18T08:03:06 IST" name="Test1" finished-at="2025-03-18T08:03:24 IST" duration-ms="18127">
-      <class name="com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest">
-        <test-method is-config="true" signature="BeforeClassImplementation(java.lang.String)[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T08:03:06 IST" name="BeforeClassImplementation" finished-at="2025-03-18T08:03:11 IST" duration-ms="5672" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClassImplementation -->
-        <test-method is-config="true" signature="BeforeMethodImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T08:03:11 IST" name="BeforeMethodImplementation" finished-at="2025-03-18T08:03:11 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodImplementation -->
-        <test-method signature="managePatientsSmoke()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T08:03:11 IST" name="managePatientsSmoke" finished-at="2025-03-18T08:03:20 IST" duration-ms="8838" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- managePatientsSmoke -->
-        <test-method is-config="true" signature="AfterMethodImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T08:03:20 IST" name="AfterMethodImplementation" finished-at="2025-03-18T08:03:20 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethodImplementation -->
-        <test-method is-config="true" signature="AfterClassImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T08:03:20 IST" name="AfterClassImplementation" finished-at="2025-03-18T08:03:24 IST" duration-ms="3523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClassImplementation -->
-      </class> <!-- com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2025-03-18T08:03:24 IST" name="Test2" finished-at="2025-03-18T08:03:39 IST" duration-ms="15532">
+    <test started-at="2025-03-18T10:23:22 IST" name="Test2" finished-at="2025-03-18T10:23:49 IST" duration-ms="26506">
       <class name="com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest">
-        <test-method is-config="true" signature="BeforeSuiteImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T08:03:06 IST" name="BeforeSuiteImplementation" finished-at="2025-03-18T08:03:06 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="BeforeSuiteImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T10:23:22 IST" name="BeforeSuiteImplementation" finished-at="2025-03-18T10:23:22 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuiteImplementation -->
-        <test-method is-config="true" signature="BeforeClassImplementation(java.lang.String)[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T08:03:24 IST" name="BeforeClassImplementation" finished-at="2025-03-18T08:03:30 IST" duration-ms="6662" status="PASS">
+        <test-method is-config="true" signature="BeforeClassImplementation(java.lang.String)[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T10:23:23 IST" name="BeforeClassImplementation" finished-at="2025-03-18T10:23:33 IST" duration-ms="10834" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,27 +26,58 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClassImplementation -->
-        <test-method is-config="true" signature="BeforeMethodImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T08:03:30 IST" name="BeforeMethodImplementation" finished-at="2025-03-18T08:03:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeMethodImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T10:23:33 IST" name="BeforeMethodImplementation" finished-at="2025-03-18T10:23:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodImplementation -->
-        <test-method signature="AppointmentHistoryTest()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T08:03:30 IST" name="AppointmentHistoryTest" finished-at="2025-03-18T08:03:36 IST" duration-ms="5404" status="PASS">
+        <test-method signature="AppointmentHistoryTest()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T10:23:33 IST" name="AppointmentHistoryTest" finished-at="2025-03-18T10:23:45 IST" duration-ms="11693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppointmentHistoryTest -->
-        <test-method is-config="true" signature="AfterMethodImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T08:03:36 IST" name="AfterMethodImplementation" finished-at="2025-03-18T08:03:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterMethodImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T10:23:45 IST" name="AfterMethodImplementation" finished-at="2025-03-18T10:23:45 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethodImplementation -->
-        <test-method is-config="true" signature="AfterClassImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T08:03:36 IST" name="AfterClassImplementation" finished-at="2025-03-18T08:03:39 IST" duration-ms="3461" status="PASS">
+        <test-method is-config="true" signature="AfterClassImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T10:23:45 IST" name="AfterClassImplementation" finished-at="2025-03-18T10:23:49 IST" duration-ms="3859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClassImplementation -->
-        <test-method is-config="true" signature="AfterSuiteImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T08:03:39 IST" name="AfterSuiteImplementation" finished-at="2025-03-18T08:03:39 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AfterSuiteImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest@49438269]" started-at="2025-03-18T10:23:52 IST" name="AfterSuiteImplementation" finished-at="2025-03-18T10:23:52 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuiteImplementation -->
       </class> <!-- com.MIT.HMS_DJ.TC_07_AppointmentHistory_SmokeTest -->
     </test> <!-- Test2 -->
+    <test started-at="2025-03-18T10:23:22 IST" name="Test1" finished-at="2025-03-18T10:23:52 IST" duration-ms="29223">
+      <class name="com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest">
+        <test-method is-config="true" signature="BeforeClassImplementation(java.lang.String)[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T10:23:23 IST" name="BeforeClassImplementation" finished-at="2025-03-18T10:23:33 IST" duration-ms="10896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassImplementation -->
+        <test-method is-config="true" signature="BeforeMethodImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T10:23:33 IST" name="BeforeMethodImplementation" finished-at="2025-03-18T10:23:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodImplementation -->
+        <test-method signature="managePatientsSmoke()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T10:23:33 IST" name="managePatientsSmoke" finished-at="2025-03-18T10:23:48 IST" duration-ms="14782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managePatientsSmoke -->
+        <test-method is-config="true" signature="AfterMethodImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T10:23:48 IST" name="AfterMethodImplementation" finished-at="2025-03-18T10:23:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodImplementation -->
+        <test-method is-config="true" signature="AfterClassImplementation()[pri:0, instance:com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest@40a4337a]" started-at="2025-03-18T10:23:48 IST" name="AfterClassImplementation" finished-at="2025-03-18T10:23:52 IST" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassImplementation -->
+      </class> <!-- com.MIT.HMS_DJ.TC_06_ManagePatients_SmokeTest -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

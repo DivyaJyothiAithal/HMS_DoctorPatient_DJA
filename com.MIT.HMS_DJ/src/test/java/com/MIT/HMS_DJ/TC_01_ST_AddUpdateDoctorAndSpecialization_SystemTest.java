@@ -16,7 +16,7 @@ public class TC_01_ST_AddUpdateDoctorAndSpecialization_SystemTest extends BaseCl
 
 	public 	String doctorName;
 	public String Specialization;
-	
+
 	@Test(groups =  {"SmokeTest","RegressionTest"},priority=1)
 	public void addDoctorTest()throws Throwable
 	{
