@@ -36,6 +36,8 @@ public class TC_06_ManagePatients_SmokeTest extends BaseClassHMS  {
 				
 		//validate Page
 		manPat.validate();
+		//logout
+		adDash.logout();
 
 	}	
 }

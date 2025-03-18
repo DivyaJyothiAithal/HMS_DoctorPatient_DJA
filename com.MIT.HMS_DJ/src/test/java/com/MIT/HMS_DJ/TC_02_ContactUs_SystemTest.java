@@ -15,11 +15,15 @@ public class TC_02_ContactUs_SystemTest extends BaseClassHMS {
 	@Test(groups = "RegressionTest",priority=1)
 	public void addContactQueryTest() throws Throwable
 	{
+		AdminDashboard adDash=new AdminDashboard(driver);
 		HomePage home= new HomePage(driver);
 
 		//AddContactQuery	
 		home.clickContactUsLink();		
 		 name=home.addContactMessage();
+		 
+		//logout
+		adDash.logout();
 	}
 	
 	@Test(groups = "RegressionTest",priority=2)
@@ -38,6 +42,8 @@ public class TC_02_ContactUs_SystemTest extends BaseClassHMS {
 		unreadQuery.viewUnreadQuery(name);		
 		queryDet.addRemark();		
 		readQuery.viewReadQueries(name);		
+		//logout
+		adDash.logout();
 	}
 	
 	

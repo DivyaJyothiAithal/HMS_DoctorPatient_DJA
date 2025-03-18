@@ -33,7 +33,7 @@ public class EditDoctorDetails {
 	public void updateDoctorSpecialization() throws Throwable
 	{
 		Select sel = new Select(Doctorspecialization);
-		sel.selectByValue("Obstetrics and Gynecology");
+		sel.selectByIndex(1);
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", submit);

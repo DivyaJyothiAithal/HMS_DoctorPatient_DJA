@@ -24,22 +24,36 @@ public class TC_04_PatientSearchSessionLogs_SystemTest extends BaseClassHMS{
 		
 		//viewPatientHistory
 		adDash.PatientHistory();
+		//logout
+		adDash.logout();
 	}
 	
 	@Test(groups = "RegressionTest")
 	public void SearchDoctorSessionLogs_SystemTest() throws Throwable
 	{
+		HomePage home= new HomePage(driver);
 		AdminDashboard adDash=new AdminDashboard(driver);
+
+		//Login
+		home.Adminlogin();	
 	
 		//View DoctorSessionLogs
 		adDash.DoctorSessionLogs();
+		//logout
+		adDash.logout();
 	}
 	
 	@Test(groups = "RegressionTest")
 	public void SearchUserSessionLogs_SystemTest() throws Throwable
 	{
+		HomePage home= new HomePage(driver);
 		AdminDashboard adDash=new AdminDashboard(driver);
+
+		//Login
+		home.Adminlogin();	
 		//View UserSessionLogs
-		adDash.UserSessionLogs();		
+		adDash.UserSessionLogs();	
+		//logout
+		adDash.logout();
 	}	
 }

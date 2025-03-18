@@ -23,6 +23,9 @@ public class TC_07_AppointmentHistory_SmokeTest extends BaseClassHMS {
 		adDash.AppointmentHistory();
 		
 		appHis.ValidateTitle();	
+		
+		//logout
+		adDash.logout();
 	}
 
 }

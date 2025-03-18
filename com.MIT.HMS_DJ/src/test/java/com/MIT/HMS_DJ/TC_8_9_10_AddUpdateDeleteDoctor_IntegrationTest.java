@@ -49,6 +49,9 @@ public class TC_8_9_10_AddUpdateDeleteDoctor_IntegrationTest extends BaseClassHM
 		//validation of Integration	
 		mgDoc.validateTitle();		
 		mgDoc.validateAddDoctor(doctorName);
+		
+		//logout
+		adDash.logout();
 	}
 	
 	@Test(dependsOnMethods = "addDoctorTest",priority = 2)
@@ -57,6 +60,10 @@ public class TC_8_9_10_AddUpdateDeleteDoctor_IntegrationTest extends BaseClassHM
 		AdminDashboard adDash=new AdminDashboard(driver);
 		ManageDoctors mgDoc=new ManageDoctors(driver);
 		EditDoctorDetails editDoctor=new EditDoctorDetails(driver);
+		HomePage home=new HomePage(driver);
+		
+		//Login		
+		home.Adminlogin();
 		
 		adDash.manageDoctors();		
 		
@@ -68,6 +75,9 @@ public class TC_8_9_10_AddUpdateDeleteDoctor_IntegrationTest extends BaseClassHM
 		//validation of Integration	
 		adDash.manageDoctors();
 		mgDoc.validateUpdateDoctor(doctorName);		
+		
+		//logout
+		adDash.logout();
 	}
 	
 	@Test(dependsOnMethods = "addDoctorTest",priority = 3)
@@ -75,7 +85,10 @@ public class TC_8_9_10_AddUpdateDeleteDoctor_IntegrationTest extends BaseClassHM
 	{		
 		AdminDashboard adDash=new AdminDashboard(driver);
 		ManageDoctors mgDoc=new ManageDoctors(driver);
+		HomePage home=new HomePage(driver);
 		
+		//Login		
+		home.Adminlogin();
 		adDash.manageDoctors();		
 		
 		mgDoc.clickDeleteButton(doctorName);
@@ -89,5 +102,8 @@ public class TC_8_9_10_AddUpdateDeleteDoctor_IntegrationTest extends BaseClassHM
 		adDash.manageDoctors();
 		//verify doctor deletion
 		mgDoc.ValidateDelete(doctorName);		
+		
+		//logout
+		adDash.logout();
 	}	
 }

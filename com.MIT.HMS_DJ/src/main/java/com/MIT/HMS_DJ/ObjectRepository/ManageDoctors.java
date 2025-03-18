@@ -64,7 +64,7 @@ public class ManageDoctors {
 	public void validateUpdateDoctor(String doctorName)
 	{
 		String specialization=driver.findElement(By.xpath("//td[text()='"+doctorName+"']/..//td[2]")).getText();
-		Assert.assertEquals(specialization, "Obstetrics and Gynecology");
+		Assert.assertEquals(specialization, "Gynecologist/Obstetrician");
 	}
 	
 	public void verifyDeleteMsg()

@@ -36,6 +36,8 @@ public class TC_05_AddDoctor_SmokeTest  extends BaseClassHMS {
 		
 		String title = driver.getTitle();
 		Assert.assertEquals(title, "Admin | Manage Doctors","Adding Doctor Failed ========");	
+		//logout
+		adDash.logout();
 	}
 	
 	

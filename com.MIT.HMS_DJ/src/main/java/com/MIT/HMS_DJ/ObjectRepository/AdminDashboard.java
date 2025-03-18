@@ -60,6 +60,9 @@ public class AdminDashboard {
 	@FindBy(xpath = "//span[text()=' Manage Patients ']")
 	private WebElement    ManagePatients   ;
 	
+	@FindBy(xpath = "//span[text()=' Manage Users ']")
+	private WebElement    ManageUsers   ;
+	
 	@FindBy(xpath = "//span[text()=' Unread Query ']")
 	private WebElement UnreadQuery   ;
 	
@@ -104,6 +107,12 @@ public class AdminDashboard {
 	{
 		Patients.click();
 		ManagePatients.click();
+	}
+	
+	public void manageUsers()
+	{
+		Users.click();
+		ManageUsers.click();
 	}
 	
 	public void unreadQuery()

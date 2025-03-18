@@ -15,6 +15,7 @@ public class TC_01_ST_AddUpdateDoctorAndSpecialization_SystemTest extends BaseCl
 	public WebDriverUtility wdlib=new WebDriverUtility();
 
 	public 	String doctorName;
+	public String Specialization;
 	
 	@Test(groups =  {"SmokeTest","RegressionTest"},priority=1)
 	public void addDoctorTest()throws Throwable
@@ -32,6 +33,7 @@ public class TC_01_ST_AddUpdateDoctorAndSpecialization_SystemTest extends BaseCl
 		
 		//handle alert		
 		wdlib.handleAlert(driver);	
+		adDash.logout();
 	}
 	
 	@Test(groups = "RegressionTest",priority=2)
@@ -46,6 +48,7 @@ public class TC_01_ST_AddUpdateDoctorAndSpecialization_SystemTest extends BaseCl
 		mgDoc.clickEditButton(doctorName);						
 		editDoctor.updateDoctorSpecialization();
 		editDoctor.verifyUpdation();
+		adDash.logout();
 	}
 	
 	@Test(groups = "RegressionTest",priority=3)
@@ -56,7 +59,7 @@ public class TC_01_ST_AddUpdateDoctorAndSpecialization_SystemTest extends BaseCl
 		 
 		//AddDocSpecialization
 		adDash.doctorSpecialization();		
-		addDocSp.AddDoctorSpecializationdetails();
+	    Specialization=addDocSp.AddDoctorSpecializationdetails();
 		addDocSp.ValidateAddDocSpecialization();
 		adDash.logout();
 	}

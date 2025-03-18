@@ -92,11 +92,11 @@ public class HomePage {
 	
 	public String addContactMessage() throws Throwable
 	{
-		String contactName=elib.getCellData("Home", 2, 1);
+		String contactName=elib.getCellData("Home", 3, 1);
 		name.sendKeys(contactName);
-		email.sendKeys(elib.getCellData("Home", 2, 2));
-		number.sendKeys(elib.getCellData("Home", 2, 3));
-		message.sendKeys(elib.getCellData("Home", 2, 4));
+		email.sendKeys(elib.getCellData("Home", 3, 2));
+		number.sendKeys(elib.getCellData("Home", 3, 3));
+		message.sendKeys(elib.getCellData("Home", 3, 4));
 		
 		sendMessage.click();
 		

@@ -23,7 +23,8 @@ public class AppointmentHistory {
 		String currentStatus=status.getText();
 		
 		SoftAssert as=new SoftAssert();
-		as.assertEquals(currentStatus, "Active");
+		as.assertEquals(currentStatus, "Active","#####Status not active#####");
+		as.assertAll();
 	}
 	
 	public void ValidateTitle()

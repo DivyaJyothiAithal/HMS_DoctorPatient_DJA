@@ -7,7 +7,7 @@
  </run> 
  </groups>
  <listeners>
-<listener class-name="ListenerUtility.ListenerImplementation_HMS"></listener>
+<listener class-name="com.MIT.HMS_DJ.ListnerUtility.ListenerImplementation_HMS"></listener>
 </listeners>
 
   <test thread-count="5" name="Test">

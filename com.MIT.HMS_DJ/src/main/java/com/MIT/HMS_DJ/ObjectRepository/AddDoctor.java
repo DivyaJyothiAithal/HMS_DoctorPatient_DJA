@@ -50,7 +50,7 @@ public class AddDoctor {
 	public String addDoctorDetails()
 	{
 		Select sel = new Select(DoctorspeclSelect);
-		sel.selectByValue("Ophthalmology");
+		sel.selectByIndex(1);
 		String DocName="DJ"+jlib.getRandomNumber();
 
 		doctorName.sendKeys(DocName);
@@ -73,13 +73,12 @@ public class AddDoctor {
 		
 	}
 	
-	public void addDoctorDetails(String docrName)
+	public void addDoctorDetails(String DocName )
 	{
 		Select sel = new Select(DoctorspeclSelect);
-		sel.selectByValue("Ophthalmology");
-
+		sel.selectByIndex(1);
 		
-		doctorName.sendKeys(docrName);
+		doctorName.sendKeys(DocName);
 
 		clinicaddress.sendKeys("DJ 1st main 3rd cross RRNagar");
 

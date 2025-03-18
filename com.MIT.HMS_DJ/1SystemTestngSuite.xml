@@ -3,16 +3,16 @@
 <suite name="Suite">
 
 <listeners>
-<listener class-name="ListenerUtility.ListenerImplementation_HMS"></listener>
+<listener class-name="com.MIT.HMS_DJ.ListnerUtility.ListenerImplementation_HMS"></listener>
 </listeners>
 
   <test thread-count="5" name="Test">
     <classes>
       
-      <class name="com.MIT.HMS_DJ.TC_01_ST_AddUpdateDoctorAndSpecialization_SystemTest"/>
-      <class name="com.MIT.HMS_DJ.TC_02_ContactUs_SystemTest"/>
+      <class name="com.MIT.HMS_DJ.TC_01_ST_AddUpdateDoctorAndSpecialization_SystemTest"/>    
       <class name="com.MIT.HMS_DJ.TC_03_ManagePatientsReportAppointment_SystemTest"/>
       <class name="com.MIT.HMS_DJ.TC_04_PatientSearchSessionLogs_SystemTest"/>
+      <class name="com.MIT.HMS_DJ.TC_11_ManageUsers_SystemTest"/>
      
     </classes>
   </test> <!-- Test -->

@@ -29,7 +29,10 @@ public class TC_03_ManagePatientsReportAppointment_SystemTest extends BaseClassH
 		//ManagePatients
 		adDash.managePatients();
 		viewPat.viewIconClick();		
-		mgPatient.validateTitle();
+		mgPatient.validate();
+		
+		//logout
+		adDash.logout();
 	}
 	
 	@Test(groups = "RegressionTest")
@@ -39,12 +42,19 @@ public class TC_03_ManagePatientsReportAppointment_SystemTest extends BaseClassH
 		 BetweenDates btwreports=new BetweenDates(driver);
 		 ViewPatients viewPat=new ViewPatients(driver);
 		 ManagePatients mgPatient=new ManagePatients(driver);
-		
+		 HomePage home= new HomePage(driver);
+		 
+		//Login
+			home.Adminlogin();	
+			
 		//Report
 		adDash.reports();
 		btwreports.enterDates();
 		viewPat.viewIconClick();		
 		mgPatient.validateTitle();
+		
+		//logout
+		adDash.logout();
 	}
 	
 	@Test(groups = {"SmokeTest","RegressionTest"})
@@ -52,10 +62,15 @@ public class TC_03_ManagePatientsReportAppointment_SystemTest extends BaseClassH
 	{
 		 AdminDashboard adDash=new AdminDashboard(driver);
 		 AppointmentHistory apHistory=new AppointmentHistory(driver);
-		 
+		 HomePage home= new HomePage(driver);
+			//Login
+			home.Adminlogin();	
 		//AppointmentHistory
 		adDash.AppointmentHistory();
 		apHistory.confirmAppointment();
+		
+		//logout
+		adDash.logout();
 	}
 }
 	

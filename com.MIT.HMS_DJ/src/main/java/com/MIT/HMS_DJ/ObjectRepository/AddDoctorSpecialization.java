@@ -26,10 +26,12 @@ public class AddDoctorSpecialization {
 	@FindBy(xpath = "//p[contains(text(),'Doctor Specialization')]")
 	private WebElement successMsg;
 	
-	public void AddDoctorSpecializationdetails()
+	public String AddDoctorSpecializationdetails()
 	{
-		doctorspecialization.sendKeys("DJ_Specialization_"+jlib.getRandomNumber());		
+		String Specialization="DJ_Specialization_"+jlib.getRandomNumber();
+		doctorspecialization.sendKeys(Specialization);		
 		submit.click();
+		return Specialization;
 		
 	}
 	

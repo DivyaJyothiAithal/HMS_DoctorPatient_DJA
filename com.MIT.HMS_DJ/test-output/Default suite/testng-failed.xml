@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MIT.HMS_DJ.TC_05_AddDoctor_SmokeTest">
+      <class name="com.MIT.HMS_DJ.TC_11_ManageUsers_SystemTest">
         <methods>
           <include name="BeforeSuiteImplementation"/>
+          <include name="addDoctorTest"/>
           <include name="AfterClassImplementation"/>
-          <include name="addDoctorSmoke"/>
           <include name="AfterMethodImplementation"/>
           <include name="BeforeClassImplementation"/>
           <include name="BeforeMethodImplementation"/>
           <include name="AfterSuiteImplementation"/>
         </methods>
-      </class> <!-- com.MIT.HMS_DJ.TC_05_AddDoctor_SmokeTest -->
+      </class> <!-- com.MIT.HMS_DJ.TC_11_ManageUsers_SystemTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
